@@ -1,8 +1,6 @@
 # PCAP Network Forensics Investigation
 ## Overview
-
-This project is a practical network forensics investigation of a
-PCAP file.
+This repository documents a network forensics investigation of a PCAP file, focusing on suspicious DNS and TLS/HTTPS activity, IOC identification, timeline reconstruction, and detection coverage.
 
 I used Wireshark, Zeek, and Snort to investigate suspicious network
 traffic, identify IOCs, build a timeline, and map the observed
@@ -54,8 +52,5 @@ This may indicate a detection coverage gap and should be investigated
 further.
 
 ## Conclusion
-The PCAP shows suspicious outbound communication from
-`10.9.11.135`.
-The next step in a real SOC investigation would be to investigate
-the endpoint for execution, persistence, and other signs of
-compromise.
+
+The PCAP shows suspicious outbound communication from 10.9.11.135 to the identified infrastructure. The available network evidence supports further investigation but does not independently establish malware execution or persistence. In a real SOC investigation, the next step would be endpoint investigation and correlation with host-based telemetry.
