@@ -52,5 +52,4 @@ This may indicate a detection coverage gap and should be investigated
 further.
 
 ## Conclusion
-
-The PCAP shows suspicious outbound communication from 10.9.11.135 to the identified infrastructure. The available network evidence supports further investigation but does not independently establish malware execution or persistence. In a real SOC investigation, the next step would be endpoint investigation and correlation with host-based telemetry.
+The PCAP shows suspicious outbound communication from 10.9.11.135 to the identified infrastructure. The available network evidence supports further investigation but does not independently establish malware execution or persistence. the next step would be endpoint investigation and correlation with host-based telemetry.
